@@ -1,0 +1,10 @@
+# Logfile created on 2019-09-24 08:32:22 +0000 by logger.rb/47272
+I, [2019-09-24T08:32:22.459914 #3206]  INFO -- : Running example 'Verifying a pact between Foo and Bar Foo with GET /foo returns a response which has status code 200'
+I, [2019-09-24T08:32:22.459996 #3206]  INFO -- : Sending GET request to path: "/foo" with headers: {}, see debug logs for body
+D, [2019-09-24T08:32:22.460016 #3206] DEBUG -- : body :
+I, [2019-09-24T08:32:22.487630 #3206]  INFO -- : Running example 'Verifying a pact between Foo and Bar Foo with GET /foo returns a response which has a matching body'
+I, [2019-09-24T08:32:22.487739 #3206]  INFO -- : Sending GET request to path: "/foo" with headers: {}, see debug logs for body
+D, [2019-09-24T08:32:22.487759 #3206] DEBUG -- : body :
+I, [2019-09-24T08:32:22.488923 #3206]  INFO -- : Running example 'Verifying a pact between Foo and Bar Foo with GET /foo returns a response which includes headers "Content-Type" which equals "application/json"'
+I, [2019-09-24T08:32:22.488986 #3206]  INFO -- : Sending GET request to path: "/foo" with headers: {}, see debug logs for body
+D, [2019-09-24T08:32:22.489006 #3206] DEBUG -- : body :

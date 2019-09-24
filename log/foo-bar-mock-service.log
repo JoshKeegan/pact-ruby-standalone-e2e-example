@@ -1,0 +1,42 @@
+I, [2019-09-24T08:32:19.013533 #3167]  INFO -- : Cleared interactions
+I, [2019-09-24T08:32:19.022968 #3167]  INFO -- : Registered expected interaction GET /foo
+D, [2019-09-24T08:32:19.023152 #3167] DEBUG -- : {
+  "description": "foo",
+  "request": {
+    "method": "GET",
+    "path": "/foo"
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "body": {
+      "formattedPrice": "£5.00"
+    }
+  }
+}
+I, [2019-09-24T08:32:19.029714 #3167]  INFO -- : Received request GET /foo
+D, [2019-09-24T08:32:19.029791 #3167] DEBUG -- : {
+  "path": "/foo",
+  "query": "",
+  "method": "get",
+  "headers": {
+    "Host": "localhost:1234",
+    "User-Agent": "curl/7.64.0",
+    "Accept": "*/*",
+    "Version": "HTTP/1.1"
+  }
+}
+I, [2019-09-24T08:32:19.029986 #3167]  INFO -- : Found matching response for GET /foo
+D, [2019-09-24T08:32:19.030054 #3167] DEBUG -- : {
+  "status": 200,
+  "headers": {
+    "Content-Type": "application/json"
+  },
+  "body": {
+    "formattedPrice": "£5.00"
+  }
+}
+I, [2019-09-24T08:32:19.036397 #3167]  INFO -- : Verifying - interactions matched
+I, [2019-09-24T08:32:19.042902 #3167]  INFO -- : Writing pact for Bar to ./pacts/foo-bar.json

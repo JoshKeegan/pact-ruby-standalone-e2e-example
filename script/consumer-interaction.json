@@ -10,7 +10,7 @@
       "Content-Type": "application/json"
     },
     "body": {
-      "message": "Hello world"
+      "formattedPrice": "£5.00"
     }
   }
 }
